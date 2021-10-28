@@ -35,11 +35,11 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="" \
+    maintainer="Ahmed Alhazmi" \
     org.opencontainers.image.title="MPO" \
     org.opencontainers.image.description="MQTT-Based Privacy Orchestrator. An add-on that works on privacy" \
     org.opencontainers.image.vendor="" \
-    org.opencontainers.image.authors="" \
+    org.opencontainers.image.authors="Ahmed Alhazmi <aalhazmi2017@my.fit.edu>, Khulud Alawaji <kalawaji2017@my.fit.edu>, TJ OConnor <toconnor@fit.edu>" \
     org.opencontainers.image.licenses="Apache" \
     org.opencontainers.image.url="" \
     org.opencontainers.image.source="" \
