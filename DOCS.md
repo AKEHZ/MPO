@@ -8,7 +8,7 @@ Create three user accounts on Home Assistant for the three privacy profiles (onl
 
 > <span style="color:red">**_NOTES:_**</span>
  * This step allows for Home Assistant to authenticate the three privacy profiles. Once you create these user accounts, you can give PrivacyProfile 2 and 3 usernames and passwords to those you want to allow to access your MQTT data (e.g. partner, roomates, kids, guests). 
- * If you don't see "Users" option after you click on Configuration, then go to Your [Profile page](http://homeassistant.local:8123/profile) and enable **"Advanced Mode"**. 
+ * If you don't see "Users" option after you click on Configuration, then go to Your [Profile page](http://homeassistant.local:8123/profile) and enable "Advanced Mode". 
 
 ### Configuration
 ```yaml
