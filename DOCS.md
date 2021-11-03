@@ -4,7 +4,7 @@
 ### Before using MPO for the first time
 Create three user accounts on Home Assistant for the three privacy profiles (only required for the first time).  You can create these accounts by clicking "Configuration &#8594; users &#8594; ADD USER" .
 ![ConfigurationUsers](https://user-images.githubusercontent.com/17085923/139117262-e76e67d3-918f-40b2-bf41-eddf6b758fbb.png)
-![AddUSERS](https://user-images.githubusercontent.com/17085923/139161862-35d7bef3-455e-4517-9b56-aa0fd30c1c9e.png)
+![AddUSERS](https://user-images.githubusercontent.com/17085923/139969447-e98f789d-0ba0-4076-8d9b-a56411f6c2e0.png)
 
 > <span style="color:red">**_NOTE:_**</span> This step allows for Home Assistant to authenticate the three privacy profiles. Once you create these user accounts, you can give PrivacyProfile 2 and 3 usernames and passwords to those you want to allow to access your MQTT data (e.g. partner, roomates, kids, guests). 
 
@@ -17,7 +17,7 @@ IoTDevices_Publish:
 IoTDevices_Subscribe:
 Device_Credentials:
 ```
-* **pp_two_publish** (**Optional**):
+* **pp_two_publish**:
 This option allows PrivacyProfile2 (pp2) users to control some of your MQTT devices by publishing MQTT messages.
 
 ```yaml
@@ -27,7 +27,7 @@ pp_two_publish:
  - bulb/set
 ```
 
-* **pp_two_subscribe** (**Optional**):
+* **pp_two_subscribe**:
 This option allows PrivacyProfile2 (pp2) users to subscribe to some of your MQTT devices' topics.
 
 ```yaml
@@ -37,7 +37,7 @@ pp_two_subscribe:
  - lock/status
 ```
 
-* **pp_three_subscribe** (**Optional**):
+* **pp_three_subscribe**:
 This option allows PrivacyProfile3 (pp3) users to subscribe to some of your MQTT devices' topics.
 
 ```yaml
