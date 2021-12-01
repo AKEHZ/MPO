@@ -81,3 +81,7 @@ Device_Credentials: lock
 *  We built the **IoTDevices_Publish** & **IoTDevices_Subscribe** options to prevent the possbility of __a malicious__ IoT device subscribing to topics it should not access or publishing on another device's topic. 
 
 *  In MPO's log, You may notice "user DAMQTT added" or "user DAMQTT exists" messages. MPO generates this user and mostly uses it to deliver MQTT messages to pp2/# and pp3/# topics. We refer to it as " MPO's Delivery agent". 
+
+* Since MPO enforces TLS communication, manual configuration for MQTT is needed according to Home Assistant's [documentation](https://www.home-assistant.io/integrations/mqtt/). MPO creates all the necessary lines on configuration.yaml for you to easily fill out:
+
+![ManualTLS_config](https://user-images.githubusercontent.com/17085923/144284130-837d28c3-9b87-46d8-ab08-f3c90388ebbd.png)
