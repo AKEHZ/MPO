@@ -21,7 +21,7 @@ You can install MPO on your Home Assistant via (Configuration &#8594; Add-ons, B
 
 ![installMPO1](https://user-images.githubusercontent.com/17085923/148317269-15c5edbe-c8f7-4a47-aa00-42d70f30f135.png)
 ![installMPO2](https://user-images.githubusercontent.com/17085923/148317274-7ad77b85-564b-4727-811e-3e2421c63f55.png)
-![installMPO3](https://user-images.githubusercontent.com/17085923/148317278-03a8bc19-3fa4-4e0d-b783-e3f7e575b852.png)
+![installMPO3](https://user-images.githubusercontent.com/17085923/148477150-09f5b331-7820-4bb5-9810-72a97bfe463e.png)
 ![two](https://user-images.githubusercontent.com/17085923/139115054-09d76ca8-440f-4a81-a2a9-c09ba8029e81.png)
 
 ## Before using MPO for the first time
