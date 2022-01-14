@@ -15,9 +15,7 @@ This add-on uses three privacy profiles to limit the access to your MQTT data fo
 * Stores the credentials of IoT devices in the Mosquitto’s local database to allow the broker to authenticate the IoT devices.
 * You as an **owner** of MPO and PrivacyProfile1 can update the topics for PrivacyProfile2 and PrivacyProfile3 at any time via MPO's configuration section.
 
-## Installation
-You can install MPO on your Home Assistant via (Supervisor &#8594; Add-on Store &#8594; Repositories). Then, copy the the MPO’s repositroy link and past it for installation to begin: 
-```https://github.com/AKEHZ/MPO```
+
 
 ## Before using MPO for the first time
 Create three user accounts on Home Assistant for the three privacy profiles (only required for the first time).  You can create these accounts by clicking "Configuration &#8594; Users &#8594; ADD USER" .
